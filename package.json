@@ -41,7 +41,9 @@
     "last 2 versions"
   ],
   "babel": {
-    "presets": ["@babel/preset-env"]
+    "presets": [
+      "@babel/preset-env"
+    ]
   },
   "scripts": {
     "dev": "webpack serve --config webpack/dev.config.js",

@@ -6,4 +6,3 @@ IPYTHONDIR=/app/.ipython
 # PostgreSQL
 # ------------------------------------------------------------------------------
 DATABASE_URL=postgres://cookieuser:ms%40155222@postgres:5432/cookie
-

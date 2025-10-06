@@ -2,19 +2,19 @@ dist: focal
 
 language: python
 python:
-  - "3.13"
+  - '3.13'
 
 services:
   - docker
 jobs:
   include:
-    - name: "Linter"
+    - name: 'Linter'
       before_script:
         - pip install -q ruff
       script:
         - ruff check .
 
-    - name: "Django Test"
+    - name: 'Django Test'
       before_script:
         - docker compose -v
         - docker -v
